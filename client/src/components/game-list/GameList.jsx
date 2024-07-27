@@ -1,5 +1,13 @@
-export default function GameList(props) {
+import { useEffect, useState } from "react";
 
+import * as gamesAPI from '../../api/games-api';
+
+export default function GameList(props) {
+    const [games, setGames] = useState([]);
+    useEffect(()=>{
+        gamesAPI.getAll()
+        .then(res => setGames(res));
+    },[])
   return (
     <>
       <section id="catalog-page">
