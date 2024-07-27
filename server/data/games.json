@@ -1,0 +1,26 @@
+{
+    "1faa6aa9-fed3-44f3-b2c7-5e5797a98d70": {
+        "title": "World of Warcraft",
+        "category": "MMORPG",
+        "maxLevel": "60",
+        "imageUrl": "https://i.ytimg.com/vi/mV2ssdfd2KM/maxresdefault.jpg",
+        "summary": "Miniature Heroes. Colossal Fun. Engage in a dazzling new sensation that's sweeping the inns and taverns across the land with this action-packed mobile strategy.",
+        "_id": "1faa6aa9-fed3-44f3-b2c7-5e5797a98d70"
+    },
+    "ae424d98-69cb-45a9-a5af-e46833bb394c": {
+        "title": "Space Engineers",
+        "category": "Sandbox, Simulation",
+        "maxLevel": "13",
+        "imageUrl": "https://assets2.ignimgs.com/2014/08/12/space-engineers-buttonjpg-0d28e5.jpg",
+        "summary": "Space Engineers is a voxel-based sandbox game, developed and published by Czech independent developer Keen Software House. In 2013, the initial developmental release of the game joined the Steam early access program. During the following years of active development, Space Engineers sold over one million units. In total as of 2019 the game has sold over 3.5 million copies[5][6] In May 2015, for approximately a year and a half, the game's source code was officially available and maintained by KSH to assist the modding community.[7][8] On December 15, 2016, the game entered Beta and was later officially released on February 28, 2019.",
+        "_id": "ae424d98-69cb-45a9-a5af-e46833bb394c"
+    },
+    "e036b5ab-1606-46d2-a2a0-8e8db70a7673": {
+        "title": "Minecraft",
+        "category": "Sandbox, Survival",
+        "maxLevel": "97",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Minecraft_game_logo.svg/220px-Minecraft_game_logo.svg.png",
+        "summary": "Minecraft is a 2011 sandbox game developed and published by Mojang Studios. Originally created by Markus Notch Persson using the Java programming language, it was developed over the span of two years, with many public test builds being released from May 2009 until its full release on 18 November 2011.",
+        "_id": "e036b5ab-1606-46d2-a2a0-8e8db70a7673"
+    }
+}
