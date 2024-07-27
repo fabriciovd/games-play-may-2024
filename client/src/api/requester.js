@@ -23,6 +23,13 @@ export const post = requester.bind(undefined, "POST");
 export const put = requester.bind(undefined, "PUT");
 export const del = requester.bind(undefined, "DELETE");
 
+export default {
+    get,
+    post,
+    put,
+    del,
+    };
+
 // export const get = (url, data ) => requester("GET", url, data);
 // export const post = (url, data ) => requester("POST", url, data);
 // export const put = (url, data ) => requester("PUT", url, data);
