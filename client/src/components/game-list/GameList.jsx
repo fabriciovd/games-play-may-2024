@@ -1,4 +1,5 @@
 export default function GameList(props) {
+
   return (
     <>
       <section id="catalog-page">
