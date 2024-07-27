@@ -1,13 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1>Games Play</h1>
-    </>
-  )
+    <div id="box">
+      <Header />
+      <main id="main-content">
+        <Home />
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
