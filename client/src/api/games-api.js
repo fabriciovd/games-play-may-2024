@@ -9,9 +9,10 @@ export const getAll = async () => {
 };
 
 export const getOne = async (gameId) => {
-    return await request.get(`${BASE_URL}/${gameId}`);
-    const game = Object.values(result);
-    return game;
+   const data =  await request.get(`${BASE_URL}/${gameId}`);
+   return data;
+    const game = Object.values(data);
+    return game
 };
 
 const gamesAPI = {
