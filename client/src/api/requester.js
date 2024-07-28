@@ -1,6 +1,14 @@
 async function requester(method, url, data) {
   const options = {};
 
+  const accessToken = localStorage.getItem("accessToken");
+
+  if (accessToken) {
+    options.headers={
+      ...options.headers,
+      "X-Authorization": accessToken
+    }
+  }
   if (method !== "GET") {
     options.method = method;
   }
@@ -8,6 +16,7 @@ async function requester(method, url, data) {
   }
   if (data) {
     options.headers = {
+      ...options.headers,
       "Content-Type": "application/json",
     };
     options.body = JSON.stringify(data);
@@ -28,11 +37,11 @@ export const put = requester.bind(undefined, "PUT");
 export const del = requester.bind(undefined, "DELETE");
 
 export default {
-    get,
-    post,
-    put,
-    del,
-    };
+  get,
+  post,
+  put,
+  del,
+};
 
 // export const get = (url, data ) => requester("GET", url, data);
 // export const post = (url, data ) => requester("POST", url, data);
