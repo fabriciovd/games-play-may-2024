@@ -7,6 +7,18 @@ export function useGetAllGames() {
   useEffect(() => {
     gamesAPI.getAll().then((res) => setGames(res));
   }, []);
-  
+
   return [games, setGames];
+}
+
+export function useGetOneGames(gameId) {
+  const [game, setGame] = useState({});
+
+  useEffect(() => {
+    gamesAPI.getOne(gameId).then((res) => {
+      setGame(res);
+    });
+  }, [gameId]);
+
+  return [game, setGame];
 }
