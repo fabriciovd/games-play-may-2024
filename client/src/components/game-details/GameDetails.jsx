@@ -48,7 +48,7 @@ export default function GameDetails(props) {
 			<ul>
 			  {game.comments && Object.values(game.comments).map((comment) => {
 					return <li className="comment" key={comment._id}>
-					<p>Content: {comment.text}</p>
+					<p>{comment.username}: {comment.text}</p>
 				  </li>;
 				})}
 			</ul>
@@ -71,7 +71,7 @@ export default function GameDetails(props) {
 		  <form className="form" onSubmit={commentSubmitHandler}>
 			<input
 			  type="text"
-			  placeholder="Pesho"
+			  placeholder="Username"
 			  name="username"
 			  onChange={(e) => setUsername(e.target.value)}
 			  value={username}
