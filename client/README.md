@@ -33,8 +33,8 @@ SoftUni React Course Project
 - [x] Add comments in the component
 - [X] Clear form
 ## 6. API Hooks
-- [ ] Form Hook
-- [ ] GameAPI Hooks
+- [x] Form Hook
+- [x] GameAPI Hooks
 - [ ] Comment Hooks
 ## 7. Authentication
 - [ ] Auth API
