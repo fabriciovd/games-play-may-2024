@@ -38,7 +38,7 @@ SoftUni React Course Project
 - [ ] Comment Hooks
 ## 7. Authentication
 - [ ] Auth API
-  - [ ] Login
+  - [x] Login
   - [ ] Register
   - [ ] Logout
 - [ ] Auth API hook
