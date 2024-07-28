@@ -1339,6 +1339,46 @@
     	}
     };
     var seedData = {
+        games:{
+                            "ec5b4ffe-44f3-412d-aa5c-444cd60608ab": {
+                    "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+                    "title": "Test",
+                    "_createdOn": 1722166284910,
+                    "_id": "ec5b4ffe-44f3-412d-aa5c-444cd60608ab"
+                },
+                "551e0151-f082-4221-8ee6-75892d7e2d6a": {
+                    "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+                    "title": "qweqwe",
+                    "category": "qweqwe",
+                    "maxLevel": "1",
+                    "imageUrl": "qweqwe",
+                    "summary": "qweqwe",
+                    "_createdOn": 1722166620132,
+                    "_id": "551e0151-f082-4221-8ee6-75892d7e2d6a"
+                },
+                "a6011e09-2646-4cc8-9385-2c1b41ed1e9d": {
+                    "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+                    "title": "weqwe",
+                    "category": "qweqwe",
+                    "maxLevel": "1",
+                    "imageUrl": "wqeqwe",
+                    "summary": "qweqwe",
+                    "_createdOn": 1722167083406,
+                    "_id": "a6011e09-2646-4cc8-9385-2c1b41ed1e9d"
+                },
+                "359471bd-673d-465b-a977-72e40765ba07":{
+                    "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
+                    "title": "Test3",
+                    "category": "Test",
+                    "maxLevel": "3",
+                    "imageUrl": "Test3",
+                    "summary": "Test3",
+                    "_createdOn": 1722167201224,
+                    "_id": "359471bd-673d-465b-a977-72e40765ba07"
+                }
+            
+        },
+        
     	recipes: {
     		"3987279d-0ad4-4afb-8ca9-5b256ae3b298": {
     			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
